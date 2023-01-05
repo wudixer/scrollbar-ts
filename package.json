@@ -1,0 +1,27 @@
+{
+  "name": "scrollbar-ts",
+  "version": "1.0.0",
+  "description": "scrollbar-ts is a component written in TypeScript for custom (vertical) scrollbars.\r It allows \r - scrolling finite but arbitrary huge data like lists or trees.\r - rendering custom representations of the scrollbar.",
+  "main": "bin/js/index.js",
+  "types": "bin/js/index.d.ts",
+  "scripts": {
+    "build-ts": "tsc -w",
+    "server": "http-server ./bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wudixer/scrollbar-ts.git"
+  },
+  "author": "Wu Dixer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wudixer/scrollbar-ts/issues"
+  },
+  "homepage": "https://github.com/wudixer/scrollbar-ts#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
